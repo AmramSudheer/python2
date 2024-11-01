@@ -12,9 +12,5 @@ def robot():
     move()
     turn_left()
 
-robot()
-robot()
-robot()
-robot()
-robot()
-robot()
+for jump in range(6):
+    robot()
