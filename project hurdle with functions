@@ -1,0 +1,20 @@
+def turn():
+    turn_left()
+    turn_left()
+    turn_left()
+def robot():    
+    move()
+    turn_left()
+    move()
+    turn()
+    move()
+    turn()
+    move()
+    turn_left()
+
+robot()
+robot()
+robot()
+robot()
+robot()
+robot()
