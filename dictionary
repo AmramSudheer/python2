@@ -1,0 +1,8 @@
+dict = {"sds" : "sbknkjbnkdbkckdn kmd ncnsmd nmsd nkjsdn kedn",
+                 "dsa":"ddvveredvdvrfeerfvefververver"}
+                 
+
+
+for i in dict:
+    print(i)
+    print(dict[i])
