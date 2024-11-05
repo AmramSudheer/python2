@@ -1,0 +1,11 @@
+nested = ["a","b",["c","d"]]
+print(nested[2][0])
+
+travel = {
+    "germant":{
+        "num":8,
+     "cities":["paris","wdef","dfve"]
+}
+}
+
+print(travel["germant"]["cities"])
