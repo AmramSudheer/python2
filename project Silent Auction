@@ -1,0 +1,39 @@
+logo = ''' 
+  T                                    \`.    T
+       |    T     .--------------.___________) \   |    T
+       !    |     |//////////////|___________[ ]   !  T |
+            !     `--------------'           ) (      | !
+                                         mn  '-'      !
+'''
+
+
+     
+
+print(logo)
+
+def highest_bid (bidding_dicitionary):
+    winner = ""
+    highest = 0
+    max(bidding_dicitionary)
+    for bidder in bidding_dicitionary:
+        bid_amount = bidding_dicitionary[bidder]
+        if bid_amount > highest:
+            highest = bid_amount
+            winner = bidder 
+     
+    
+    print(f"the winner is {winner}and the bid is {highest}.")
+
+
+bids = {}
+continue_bidding = True
+while continue_bidding:
+    name = input("what is your name:")
+    price = int(input("what's your price:"))
+    bids[name]= price
+    should_continue = input ("are there any other bidders? type 'yes!' or 'no!'.\n").lower()
+    if should_continue == "no":
+        continue_bidding == False
+        highest_bid (bids)
+    elif should_continue == "yes":
+        print("\n"*50)
